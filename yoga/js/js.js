@@ -190,38 +190,38 @@ window.addEventListener('DOMContentLoaded', function () {
     //     }
     //
     // });
-    
+
     function sendForm(elem) {
         elem.addEventListener('submit', function (e) {
             e.preventDefault();
-           let formData = new FormData(elem);
-           let obj = {};
-           formData.forEach(function (value, key) {
-               obj[key] = value;
-           });
+            let formData = new FormData(elem);
+            let obj = {};
+            formData.forEach(function (value, key) {
+                obj[key] = value;
+            });
 
-           let json = JSON.stringify(obj);
-           
-           function postData(data) {
-               return new Promise(function (resolve, reject) {
-                   let request = new XMLHttpRequest();
+            let json = JSON.stringify(obj);
 
-                   request.open('POST', 'server.php');
-                   request.setRequestHeader('Content-type', 'application/json; charset=utf-8');
+            function postData(data) {
+                return new Promise(function (resolve, reject) {
+                    let request = new XMLHttpRequest();
 
-                   request.onreadystatechange = function () {
-                       if (request.readyState < 4) {
-                           resolve();
-                       } else if (request.readyState === 4 && request.status === 200) {
-                           resolve();
-                       } else {
-                           reject();
-                       }
-                   };
+                    request.open('POST', 'server.php');
+                    request.setRequestHeader('Content-type', 'application/json; charset=utf-8');
 
-                   request.send(data);
-               });
-           } // end postData
+                    request.onreadystatechange = function () {
+                        if (request.readyState < 4) {
+                            resolve();
+                        } else if (request.readyState === 4 && request.status === 200) {
+                            resolve();
+                        } else {
+                            reject();
+                        }
+                    };
+
+                    request.send(data);
+                });
+            } // end postData
 
             function clearInput() {
                 for (let i = 0; i < input.length; i++) {
@@ -239,4 +239,55 @@ window.addEventListener('DOMContentLoaded', function () {
 
     sendForm(form);
     sendForm(contactForm);
+
+
+    //Slider
+
+    let slideIndex = 1,
+        slides = document.querySelectorAll('.slider-item'),
+        prev = document.querySelector('.prev'),
+        next = document.querySelector('.next'),
+        dotsWrap = document.querySelector('.slider-dots'),
+        dots = document.querySelectorAll('.dot');
+
+    showSlides(slideIndex);
+
+    function showSlides(index) {
+        if (index > slides.length) {
+            slideIndex = 1
+        }
+        if (index < 1) {
+            slideIndex = slides.length;
+        }
+        slides.forEach((item) => item.style.display = 'none');
+        dots.forEach((item) => item.classList.remove('dot-active'));
+
+        slides[slideIndex - 1].style.display = 'block';
+        dots[slideIndex - 1].classList.add('dot-active');
+    }
+
+    function plusSlides(index) {
+        showSlides(slideIndex += index);
+    }
+
+    function currentSlide(index) {
+        showSlides(slideIndex = index);
+    }
+
+    prev.addEventListener('click', function () {
+        plusSlides(-1);
+    });
+
+    next.addEventListener('click', function () {
+        plusSlides(1);
+    });
+
+    dotsWrap.addEventListener('click', function (event) {
+        for (let i = 0; i < dots.length + 1; i++) {
+            if (event && event.target.classList.contains('dot') && event.target === dots[i-1]) {
+                currentSlide(i);
+            }
+        }
+    });
+
 });
