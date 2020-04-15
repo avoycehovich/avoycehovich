@@ -12,7 +12,14 @@
     "@babel/core": "^7.9.0",
     "@babel/preset-env": "^7.9.5",
     "babel-loader": "^8.1.0",
+    "babel-plugin-es6-promise": "^1.1.1",
+    "es6-promise-polyfill": "^1.2.0",
+    "formdata-polyfill": "^3.0.19",
+    "nodelist-foreach-polyfill": "^1.2.0",
     "webpack": "^4.42.1",
     "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "promise-polyfill": "8.1.3"
   }
 }
