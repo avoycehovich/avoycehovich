@@ -1,3 +1,4 @@
 .idea/
 
-/node_modules
+yoga/node_modules
+webpack_lesson/node_modules
