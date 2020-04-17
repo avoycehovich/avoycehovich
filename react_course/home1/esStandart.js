@@ -12,22 +12,17 @@ let sponsors = {
     rus: ['RusAuto', 'SBO']
 };
 
-function calcCash(cash) {
-   let total = 0;
-   for (let i = 0; i < cash.length; i++) {
-       total += cash[i];
-   }
-   return total;
-}
+const {cash, eu, rus} = sponsors;
 
-let money = calcCash(sponsors.cash);
+const sumSponsors = [...eu, ...rus, 'unexpected sponsor'];
 
-function makeBusiness(owner, director = 'Victor', cash, emp) {
-    const {eu, rus} = sponsors;
-    const {eu: [eu0]} = sponsors;
-    let sumSponsors = `${eu} ${rus} unexpected sponsor`;
-    console.log(`We have a business. Owner: ${owner}, director: ${director}. Our budget: ${cash}. And out employers: ${emp}`);
-    console.log(`And we have a sponsors: ${sumSponsors}`);
-    console.log(`Note. Be careful with ${eu0}. It's a huge risk.`);
-}
-makeBusiness.apply(null, ['Sam', null, money, employersNames]);
+const calcCash = (cash = 0) => cash.reduce((a, b) => a + b);
+
+let money = calcCash(cash);
+
+const makeBusiness = ({cash, emp, owner = 'Sam', director = 'Victor'}) => {
+    console.log(`We have a business. Owner: ${owner} , director: ${director} . Our budget: ${cash} . And our employers: ${emp}
+And we have a sponsors: ${sumSponsors}
+Note. Be careful with ${eu[0]}. It's a huge risk.`);
+};
+makeBusiness({cash: money, emp: employersNames});
