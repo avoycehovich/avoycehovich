@@ -2,21 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d53ce01b-4d04-4b25-874b-5e7b891def8a" name="Default Changelist" comment="yoga webpack">
-      <change afterPath="$PROJECT_DIR$/react_course/second_react_app/my-app/src/components/app/App.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react_course/second_react_app/my-app/src/components/post-list-item/post-list-item.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react_course/game_of_thrones/my-app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react_course/game_of_thrones/my-app/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react_course/game_of_thrones/my-app/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react_course/game_of_thrones/my-app/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react_course/game_of_thrones/my-app/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react_course/game_of_thrones/my-app/public/img/got.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react_course/game_of_thrones/my-app/public/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react_course/game_of_thrones/my-app/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react_course/game_of_thrones/my-app/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react_course/game_of_thrones/my-app/src/components/app/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react_course/game_of_thrones/my-app/src/components/app/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react_course/game_of_thrones/my-app/src/components/charDetails/charDetails.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react_course/game_of_thrones/my-app/src/components/charDetails/charDetails.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react_course/game_of_thrones/my-app/src/components/charDetails/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react_course/game_of_thrones/my-app/src/components/header/header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react_course/game_of_thrones/my-app/src/components/header/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react_course/game_of_thrones/my-app/src/components/itemList/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react_course/game_of_thrones/my-app/src/components/itemList/itemList.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react_course/game_of_thrones/my-app/src/components/itemList/itemList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react_course/game_of_thrones/my-app/src/components/randomChar/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react_course/game_of_thrones/my-app/src/components/randomChar/randomChar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react_course/game_of_thrones/my-app/src/components/randomChar/randomChar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react_course/game_of_thrones/my-app/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react_course/game_of_thrones/my-app/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react_course/game_of_thrones/my-app/src/services/gotService.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react_course/first_react_app/my-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/react_course/first_react_app/my-app/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react_course/first_react_app/my-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/react_course/first_react_app/my-app/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react_course/second_react_app/my-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/react_course/second_react_app/my-app/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react_course/second_react_app/my-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/react_course/second_react_app/my-app/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react_course/second_react_app/my-app/src/components/app-header/app-header.js" beforeDir="false" afterPath="$PROJECT_DIR$/react_course/second_react_app/my-app/src/components/app-header/app-header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react_course/second_react_app/my-app/src/components/app/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/react_course/second_react_app/my-app/src/components/app/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react_course/second_react_app/my-app/src/components/post-add-form/post-add-form.js" beforeDir="false" afterPath="$PROJECT_DIR$/react_course/second_react_app/my-app/src/components/post-add-form/post-add-form.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react_course/second_react_app/my-app/src/components/post-list-item/post-list-item.js" beforeDir="false" afterPath="$PROJECT_DIR$/react_course/second_react_app/my-app/src/components/post-list-item/post-list-item.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react_course/second_react_app/my-app/src/components/post-list/post-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/react_course/second_react_app/my-app/src/components/post-list/post-list.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react_course/second_react_app/my-app/src/components/post-status-filter/post-status-filter.js" beforeDir="false" afterPath="$PROJECT_DIR$/react_course/second_react_app/my-app/src/components/post-status-filter/post-status-filter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react_course/second_react_app/my-app/src/components/search-panel/search-panel.js" beforeDir="false" afterPath="$PROJECT_DIR$/react_course/second_react_app/my-app/src/components/search-panel/search-panel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react_course/second_react_app/my-app/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/react_course/second_react_app/my-app/src/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -80,21 +91,23 @@
     <session id="-1239634321">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="4" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.24" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="16" />
+          <entry key="css" value="21" />
           <entry key="gitignore" value="6" />
-          <entry key="html" value="22" />
-          <entry key="js" value="137" />
-          <entry key="json" value="10" />
+          <entry key="html" value="25" />
+          <entry key="ico" value="2" />
+          <entry key="js" value="146" />
+          <entry key="json" value="11" />
           <entry key="map" value="1" />
           <entry key="php" value="1" />
           <entry key="sass" value="1" />
@@ -103,10 +116,11 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="16" />
-          <entry key="HTML" value="22" />
-          <entry key="JSON" value="10" />
-          <entry key="JavaScript" value="137" />
+          <entry key="CSS" value="21" />
+          <entry key="HTML" value="25" />
+          <entry key="Image" value="2" />
+          <entry key="JSON" value="11" />
+          <entry key="JavaScript" value="146" />
           <entry key="PLAIN_TEXT" value="7" />
           <entry key="Sass" value="1" />
           <entry key="SourceMap" value="1" />
@@ -117,8 +131,8 @@
         <counts>
           <entry key="css" value="52" />
           <entry key="gitignore" value="96" />
-          <entry key="html" value="1106" />
-          <entry key="js" value="18854" />
+          <entry key="html" value="1115" />
+          <entry key="js" value="19801" />
           <entry key="json" value="33" />
           <entry key="sass" value="38" />
           <entry key="txt" value="28" />
@@ -127,9 +141,9 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="52" />
-          <entry key="HTML" value="1106" />
+          <entry key="HTML" value="1115" />
           <entry key="JSON" value="33" />
-          <entry key="JavaScript" value="18854" />
+          <entry key="JavaScript" value="19801" />
           <entry key="PLAIN_TEXT" value="124" />
           <entry key="Sass" value="38" />
         </counts>
@@ -142,22 +156,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/react_course/second_react_app/my-app/src/components/app/app.js">
+        <entry file="file://$PROJECT_DIR$/react_course/game_of_thrones/my-app/src/components/app/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="505">
-              <caret line="161" column="34" selection-start-line="161" selection-start-column="34" selection-end-line="161" selection-end-column="34" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/react_course/second_react_app/my-app/src/components/post-list/post-list.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="17" column="79" selection-start-line="17" selection-start-column="79" selection-end-line="17" selection-end-column="79" />
+            <state>
+              <caret column="7" selection-start-column="7" selection-end-column="7" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -165,14 +167,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/react_course/second_react_app/my-app/src/components/post-list-item/post-list-item.js">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/react_course/game_of_thrones/my-app/src/services/gotService.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="405">
+              <caret line="33" column="29" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -182,9 +181,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="HTML File" />
         <option value="JavaScript File" />
-        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -224,12 +223,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/yoga/js/js.js" />
-        <option value="$PROJECT_DIR$/yoga/js/parts/tabs.js" />
-        <option value="$PROJECT_DIR$/yoga/js/parts/timer.js" />
-        <option value="$PROJECT_DIR$/yoga/js/parts/modal.js" />
-        <option value="$PROJECT_DIR$/yoga/js/parts/slider.js" />
-        <option value="$PROJECT_DIR$/yoga/js/parts/cacl.js" />
         <option value="$PROJECT_DIR$/yoga/js/script.js" />
         <option value="$PROJECT_DIR$/yoga/src/index.js" />
         <option value="$PROJECT_DIR$/yoga/dist/main.js" />
@@ -273,8 +266,14 @@
         <option value="$PROJECT_DIR$/react_course/second_react_app/my-app/src/components/search-panel/search-panel.js" />
         <option value="$PROJECT_DIR$/react_course/second_react_app/my-app/src/components/post-status-filter/post-status-filter.js" />
         <option value="$PROJECT_DIR$/react_course/second_react_app/my-app/src/components/post-list-item/post-list-item.js" />
-        <option value="$PROJECT_DIR$/react_course/second_react_app/my-app/src/components/app/app.js" />
         <option value="$PROJECT_DIR$/react_course/second_react_app/my-app/src/components/post-list/post-list.js" />
+        <option value="$PROJECT_DIR$/react_course/second_react_app/my-app/src/components/app/app.js" />
+        <option value="$PROJECT_DIR$/react_course/api_lesson/index.html" />
+        <option value="$PROJECT_DIR$/react_course/api_lesson/index.js" />
+        <option value="$PROJECT_DIR$/react_course/game_of_thrones/my-app/public/index.html" />
+        <option value="$PROJECT_DIR$/react_course/game_of_thrones/my-app/src/index.css" />
+        <option value="$PROJECT_DIR$/react_course/game_of_thrones/my-app/src/index.js" />
+        <option value="$PROJECT_DIR$/react_course/game_of_thrones/my-app/src/services/gotService.js" />
       </list>
     </option>
   </component>
@@ -286,6 +285,7 @@
   </component>
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/react_course/first_react_app/my-app/node_modules" />
+    <handled-path value="$PROJECT_DIR$/react_course/game_of_thrones/my-app/node_modules" />
     <handled-path value="$PROJECT_DIR$/react_course/node_modules" />
     <handled-path value="$PROJECT_DIR$/react_course/second_react_app/my-app/node_modules" />
     <handled-path value="$PROJECT_DIR$/webpack_lesson/node_modules" />
@@ -295,6 +295,7 @@
     <packageJsonPaths>
       <path value="$PROJECT_DIR$/js_part3/galeria/galleria-1.6.1/package.json" />
       <path value="$PROJECT_DIR$/react_course/first_react_app/my-app/package.json" />
+      <path value="$PROJECT_DIR$/react_course/game_of_thrones/my-app/package.json" />
       <path value="$PROJECT_DIR$/react_course/package.json" />
       <path value="$PROJECT_DIR$/react_course/second_react_app/my-app/package.json" />
       <path value="$PROJECT_DIR$/webpack_lesson/package.json" />
@@ -313,7 +314,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -330,41 +330,20 @@
               <item name="js_courses" type="b2602c69:ProjectViewProjectNode" />
               <item name="js_courses" type="462c0819:PsiDirectoryNode" />
               <item name="react_course" type="462c0819:PsiDirectoryNode" />
-              <item name="first_react_app" type="462c0819:PsiDirectoryNode" />
+              <item name="game_of_thrones" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="js_courses" type="b2602c69:ProjectViewProjectNode" />
               <item name="js_courses" type="462c0819:PsiDirectoryNode" />
               <item name="react_course" type="462c0819:PsiDirectoryNode" />
-              <item name="first_react_app" type="462c0819:PsiDirectoryNode" />
+              <item name="game_of_thrones" type="462c0819:PsiDirectoryNode" />
               <item name="my-app" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="js_courses" type="b2602c69:ProjectViewProjectNode" />
               <item name="js_courses" type="462c0819:PsiDirectoryNode" />
               <item name="react_course" type="462c0819:PsiDirectoryNode" />
-              <item name="first_react_app" type="462c0819:PsiDirectoryNode" />
-              <item name="my-app" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="js_courses" type="b2602c69:ProjectViewProjectNode" />
-              <item name="js_courses" type="462c0819:PsiDirectoryNode" />
-              <item name="react_course" type="462c0819:PsiDirectoryNode" />
-              <item name="second_react_app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="js_courses" type="b2602c69:ProjectViewProjectNode" />
-              <item name="js_courses" type="462c0819:PsiDirectoryNode" />
-              <item name="react_course" type="462c0819:PsiDirectoryNode" />
-              <item name="second_react_app" type="462c0819:PsiDirectoryNode" />
-              <item name="my-app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="js_courses" type="b2602c69:ProjectViewProjectNode" />
-              <item name="js_courses" type="462c0819:PsiDirectoryNode" />
-              <item name="react_course" type="462c0819:PsiDirectoryNode" />
-              <item name="second_react_app" type="462c0819:PsiDirectoryNode" />
+              <item name="game_of_thrones" type="462c0819:PsiDirectoryNode" />
               <item name="my-app" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -372,15 +351,16 @@
               <item name="js_courses" type="b2602c69:ProjectViewProjectNode" />
               <item name="js_courses" type="462c0819:PsiDirectoryNode" />
               <item name="react_course" type="462c0819:PsiDirectoryNode" />
-              <item name="second_react_app" type="462c0819:PsiDirectoryNode" />
+              <item name="game_of_thrones" type="462c0819:PsiDirectoryNode" />
               <item name="my-app" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -388,7 +368,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587566632181" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587639481138" />
     <property name="last_opened_file_path" value="E:/Project/vladlen_minin/webpack_course" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -402,19 +382,19 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\open_server\OSPanel\domains\js_courses\react_course\game_of_thrones\my-app\src" />
+      <recent name="E:\open_server\OSPanel\domains\js_courses\react_course\game_of_thrones\my-app\public" />
+      <recent name="E:\open_server\OSPanel\domains\js_courses\react_course\game_of_thrones\my-app\public\img" />
+      <recent name="E:\open_server\OSPanel\domains\js_courses\react_course\home1" />
+      <recent name="E:\open_server\OSPanel\domains\js_courses\js_part3" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\open_server\OSPanel\domains\js_courses\react_course\second_react_app\my-app\src\components\app" />
       <recent name="E:\open_server\OSPanel\domains\js_courses\react_course\second_react_app\my-app\src\components\post-list" />
       <recent name="E:\open_server\OSPanel\domains\js_courses\js_part3\galeria\galleria-1.6.1" />
       <recent name="E:\open_server\OSPanel\domains\js_courses\yoga" />
       <recent name="E:\open_server\OSPanel\domains\js_courses\yoga\dist" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\open_server\OSPanel\domains\js_courses\react_course\home1" />
-      <recent name="E:\open_server\OSPanel\domains\js_courses\js_part3" />
-      <recent name="E:\open_server\OSPanel\domains\js_courses\js_part3\lesson2_promise" />
-      <recent name="E:\Project\react_js_course\js_part2" />
-      <recent name="E:\Project\react_js_course\js_part2\lesson3_classes" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -482,7 +462,8 @@
       <workItem from="1586937001219" duration="6585000" />
       <workItem from="1587023969953" duration="1612000" />
       <workItem from="1587102104336" duration="18598000" />
-      <workItem from="1587454804192" duration="37253000" />
+      <workItem from="1587454804192" duration="42341000" />
+      <workItem from="1587631918932" duration="2617000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1586247372359</created>
@@ -509,7 +490,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="178605000" />
+    <option name="totallyTimeSpent" value="186310000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -524,7 +505,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4991119" visible="true" weight="0.1684435" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4991119" visible="true" weight="0.17004265" />
       <window_info id="Structure" order="1" sideWeight="0.5008881" side_tool="true" weight="0.1684435" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -539,7 +520,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49946696" visible="true" weight="0.29175705" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49946696" visible="true" weight="0.29175705" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50053304" side_tool="true" weight="0.38937092" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -566,88 +547,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="yoga webpack" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/yoga/src/js/parts/slider.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-480">
-          <caret column="19" selection-start-column="19" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yoga/src/js/parts/form.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-840">
-          <caret column="13" selection-start-column="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yoga/src/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js_part1/home1/script.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yoga/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="24" column="44" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js_part3/es_module/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js_part3/es_module/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js_part3/es_module/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="17" lean-forward="true" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js_part3/jQuery/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js_part3/galeria/dist/galleria.js" />
-    <entry file="file://$PROJECT_DIR$/js_part3/galeria/index.html" />
-    <entry file="file://$PROJECT_DIR$/js_part3/galeria/galleria-1.6.1/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-540">
-          <caret line="6" column="12" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js_part3/galeria/galleria-1.6.1/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js_part3/galeria/galleria-1.6.1/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="30" column="17" lean-forward="true" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/react_course/package.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -655,9 +554,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1700">
           <caret line="88" column="16" selection-start-line="88" selection-start-column="16" selection-end-line="88" selection-end-column="16" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -691,15 +587,7 @@
         <state relative-caret-position="-420" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/react_course/second_react_app/my-app/src/setupTests.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/react_course/second_react_app/my-app/src/setupTests.js" />
     <entry file="file://$PROJECT_DIR$/react_course/second_react_app/my-app/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
@@ -756,19 +644,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/react_course/first_react_app/my-app/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react_course/first_react_app/my-app/src/App.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/react_course/first_react_app/my-app/src/App.js" />
+    <entry file="file://$PROJECT_DIR$/react_course/first_react_app/my-app/src/App.css" />
     <entry file="file://$PROJECT_DIR$/react_course/second_react_app/my-app/src/components/post-list-item/post-list-item.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
@@ -885,23 +762,114 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/react_course/second_react_app/my-app/src/components/post-list/post-list.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/react_course/second_react_app/my-app/src/components/app/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
-          <caret line="161" column="34" selection-start-line="161" selection-start-column="34" selection-end-line="161" selection-end-column="34" />
+        <state relative-caret-position="421">
+          <caret line="105" column="5" lean-forward="true" selection-start-line="105" selection-start-column="5" selection-end-line="105" selection-end-column="5" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/react_course/second_react_app/my-app/src/components/post-list/post-list.js">
+    <entry file="file://$PROJECT_DIR$/react_course/api_lesson/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="17" column="79" selection-start-line="17" selection-start-column="79" selection-end-line="17" selection-end-column="79" />
+        <state relative-caret-position="160">
+          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react_course/game_of_thrones/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react_course/react_app_with_api/public/favicon.ico">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react_course/game_of_thrones/my-app/public/favicon.ico">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react_course/react_app_with_api/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" lean-forward="true" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react_course/game_of_thrones/my-app/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react_course/game_of_thrones/my-app/public/index.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react_course/game_of_thrones/my-app/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react_course/react_app_with_api/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react_course/react_app_with_api/src/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="1" lean-forward="true" selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react_course/game_of_thrones/my-app/src/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="17" lean-forward="true" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react_course/api_lesson/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="22" lean-forward="true" selection-end-line="32" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react_course/game_of_thrones/my-app/src/components/app/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react_course/game_of_thrones/my-app/src/services/gotService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="33" column="29" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
         </state>
       </provider>
     </entry>
