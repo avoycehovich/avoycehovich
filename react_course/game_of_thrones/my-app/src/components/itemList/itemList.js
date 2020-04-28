@@ -1,42 +1,11 @@
 import React, {Component} from 'react';
 import Spinner from '../spinner'
-import ErrorMessage from '../errorMessage'
 import './itemList.css';
 import PropTypes from 'prop-types';
+import WithData from '../withData';
 
-export default class ItemList extends Component {
+class ItemList extends Component {
 
-    state = {
-        charList: null,
-        error: false
-    };
-
-    static propTypes = {
-        onItemSelected: PropTypes.func
-    };
-
-    static defaultProps = {
-        onItemSelected: () => {
-
-        }
-    };
-
-    componentDidCatch() {
-        this.setState({
-            error: true
-        })
-    }
-
-    componentDidMount() {
-        const {getData} = this.props;
-
-        getData()
-            .then((itemList) => {
-                this.setState({
-                    itemList
-                })
-            });
-    }
 
     renderItems(arr) {
         return arr.map((item) => {
@@ -55,17 +24,8 @@ export default class ItemList extends Component {
 
     render() {
 
-        const {itemList, error} = this.state;
-
-        if (error) {
-            return <ErrorMessage/>
-        }
-
-        if (!itemList) {
-            return <Spinner/>
-        }
-
-        const items = this.renderItems(itemList);
+        const {data} = this.props;
+        const items = this.renderItems(data);
 
         return (
             <ul className="item-list list-group">
@@ -74,3 +34,15 @@ export default class ItemList extends Component {
         );
     }
 }
+
+ItemList.propTypes = {
+    onItemSelected: PropTypes.func
+};
+
+ItemList.defaultProps = {
+    onItemSelected: () => {
+
+    }
+};
+
+export default WithData(ItemList);
