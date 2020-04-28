@@ -1,38 +1,43 @@
-import React, {Component} from 'react';
-import Spinner from '../spinner'
+import React, {useEffect, useState} from 'react';
 import './itemList.css';
 import PropTypes from 'prop-types';
 import WithData from '../withData';
 
-class ItemList extends Component {
+function ItemList({getData, onItemSelected, renderItem}) {
+
+    const [itemList, updateList] = useState([]);
+
+    useEffect(() => {
+        getData()
+            .then((data) => {
+                updateList(data)
+            });
+    }, []);
 
 
-    renderItems(arr) {
+    function renderItems(arr) {
         return arr.map((item) => {
             const {id} = item;
-            const label = this.props.renderItem(item);
+            const label = renderItem(item);
             return (
                 <li
                     key={id}
                     className="list-group-item"
-                    onClick={() => this.props.onItemSelected(id)}>
+                    onClick={() => onItemSelected(id)}>
                     {label}
                 </li>
             );
         })
-    };
-
-    render() {
-
-        const {data} = this.props;
-        const items = this.renderItems(data);
-
-        return (
-            <ul className="item-list list-group">
-                {items}
-            </ul>
-        );
     }
+
+
+    const items = renderItems(itemList);
+
+    return (
+        <ul className="item-list list-group">
+            {items}
+        </ul>
+    );
 }
 
 ItemList.propTypes = {
@@ -45,4 +50,5 @@ ItemList.defaultProps = {
     }
 };
 
-export default WithData(ItemList);
+// export default WithData(ItemList);
+export default ItemList;
