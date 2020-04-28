@@ -23,7 +23,7 @@ export default class CharacterPage extends Component {
     onItemSelected = (id) => {
         this.setState({
             selectedChar: id
-        })
+        });
     };
 
     render() {
@@ -41,6 +41,7 @@ export default class CharacterPage extends Component {
         const charDetails = (
             <ItemDetails itemId={this.state.selectedChar}
                          getItemData={this.gotService.getCharacter}
+                         children={this.props.children}
             >
                 <Field field='gender' label='Gender'/>
                 <Field field='born' label='Born'/>
