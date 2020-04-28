@@ -2,12 +2,23 @@ import React, {Component} from 'react';
 import Spinner from '../spinner'
 import ErrorMessage from '../errorMessage'
 import './itemList.css';
+import PropTypes from 'prop-types';
 
 export default class ItemList extends Component {
 
     state = {
         charList: null,
         error: false
+    };
+
+    static propTypes = {
+        onItemSelected: PropTypes.func
+    };
+
+    static defaultProps = {
+        onItemSelected: () => {
+
+        }
     };
 
     componentDidCatch() {

@@ -2,19 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d53ce01b-4d04-4b25-874b-5e7b891def8a" name="Default Changelist" comment="yoga webpack">
-      <change afterPath="$PROJECT_DIR$/react_course/game_of_thrones/my-app/src/components/pages/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react_course/game_of_thrones/my-app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/react_course/game_of_thrones/my-app/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/react_course/game_of_thrones/my-app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/react_course/game_of_thrones/my-app/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react_course/game_of_thrones/my-app/src/components/app/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/react_course/game_of_thrones/my-app/src/components/app/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react_course/game_of_thrones/my-app/src/components/header/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/react_course/game_of_thrones/my-app/src/components/header/header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react_course/game_of_thrones/my-app/src/components/pages/bookPage/bookPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/react_course/game_of_thrones/my-app/src/components/pages/bookPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react_course/game_of_thrones/my-app/src/components/pages/bookPage/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react_course/game_of_thrones/my-app/src/components/pages/characterPage/characterPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/react_course/game_of_thrones/my-app/src/components/pages/booksItem.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react_course/game_of_thrones/my-app/src/components/pages/characterPage/characterPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/react_course/game_of_thrones/my-app/src/components/pages/characterPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react_course/game_of_thrones/my-app/src/components/pages/characterPage/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/react_course/game_of_thrones/my-app/src/components/pages/housePage/housePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/react_course/game_of_thrones/my-app/src/components/pages/housePage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react_course/game_of_thrones/my-app/src/components/pages/housePage/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/react_course/game_of_thrones/my-app/src/components/itemList/itemList.js" beforeDir="false" afterPath="$PROJECT_DIR$/react_course/game_of_thrones/my-app/src/components/itemList/itemList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react_course/game_of_thrones/my-app/src/components/pages/housePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/react_course/game_of_thrones/my-app/src/components/pages/housePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react_course/game_of_thrones/my-app/src/components/randomChar/randomChar.js" beforeDir="false" afterPath="$PROJECT_DIR$/react_course/game_of_thrones/my-app/src/components/randomChar/randomChar.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -94,7 +86,7 @@
           <entry key="gitignore" value="7" />
           <entry key="html" value="25" />
           <entry key="ico" value="2" />
-          <entry key="js" value="207" />
+          <entry key="js" value="212" />
           <entry key="json" value="11" />
           <entry key="map" value="1" />
           <entry key="php" value="1" />
@@ -109,7 +101,7 @@
           <entry key="HTML" value="25" />
           <entry key="Image" value="5" />
           <entry key="JSON" value="11" />
-          <entry key="JavaScript" value="207" />
+          <entry key="JavaScript" value="212" />
           <entry key="PLAIN_TEXT" value="8" />
           <entry key="Sass" value="1" />
           <entry key="SourceMap" value="1" />
@@ -121,7 +113,7 @@
           <entry key="css" value="86" />
           <entry key="gitignore" value="99" />
           <entry key="html" value="1115" />
-          <entry key="js" value="28589" />
+          <entry key="js" value="28975" />
           <entry key="json" value="33" />
           <entry key="sass" value="38" />
           <entry key="txt" value="28" />
@@ -132,7 +124,7 @@
           <entry key="CSS" value="86" />
           <entry key="HTML" value="1115" />
           <entry key="JSON" value="33" />
-          <entry key="JavaScript" value="28589" />
+          <entry key="JavaScript" value="28975" />
           <entry key="PLAIN_TEXT" value="127" />
           <entry key="Sass" value="38" />
         </counts>
@@ -147,8 +139,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/react_course/game_of_thrones/my-app/src/components/app/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1160">
-              <caret line="66" column="56" selection-start-line="66" selection-start-column="50" selection-end-line="66" selection-end-column="56" />
+            <state relative-caret-position="288">
+              <caret line="33" column="6" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -157,10 +149,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/react_course/game_of_thrones/my-app/src/components/pages/booksItem.js">
+        <entry file="file://$PROJECT_DIR$/react_course/game_of_thrones/my-app/src/components/pages/housePage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="365">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/react_course/game_of_thrones/my-app/src/components/randomChar/randomChar.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -171,64 +175,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/react_course/game_of_thrones/my-app/src/components/itemList/itemList.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="614">
-              <caret line="56" column="38" selection-start-line="56" selection-start-column="27" selection-end-line="56" selection-end-column="38" />
+            <state relative-caret-position="1360">
+              <caret line="68" selection-start-line="68" selection-end-line="68" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/react_course/game_of_thrones/my-app/src/components/itemDetails/itemDetails.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/react_course/game_of_thrones/my-app/src/components/pages/bookPage.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="31" column="23" lean-forward="true" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/react_course/game_of_thrones/my-app/src/services/gotService.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="8" column="48" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/react_course/game_of_thrones/my-app/src/components/header/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="24" selection-start-column="24" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/react_course/game_of_thrones/my-app/src/components/header/header.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="860">
-              <caret line="45" column="37" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -286,7 +236,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/react_course/second_react_app/my-app/src/components/post-list/index.js" />
         <option value="$PROJECT_DIR$/react_course/second_react_app/my-app/src/components/post-list-item/index.js" />
         <option value="$PROJECT_DIR$/react_course/second_react_app/my-app/src/components/post-add-form/index.js" />
         <option value="$PROJECT_DIR$/react_course/first_react_app/my-app/src/index.js" />
@@ -317,11 +266,9 @@
         <option value="$PROJECT_DIR$/react_course/game_of_thrones/my-app/src/components/app/app.css" />
         <option value="$PROJECT_DIR$/react_course/game_of_thrones/my-app/src/components/characterPage/characterPage.css" />
         <option value="$PROJECT_DIR$/react_course/game_of_thrones/my-app/src/components/characterPage/index.js" />
-        <option value="$PROJECT_DIR$/react_course/game_of_thrones/my-app/src/components/randomChar/randomChar.js" />
         <option value="$PROJECT_DIR$/react_course/game_of_thrones/my-app/src/components/rowBlock/index.js" />
         <option value="$PROJECT_DIR$/react_course/game_of_thrones/my-app/src/components/rowBlock/rowBlock.js" />
         <option value="$PROJECT_DIR$/react_course/game_of_thrones/my-app/src/components/charDetails/index.js" />
-        <option value="$PROJECT_DIR$/react_course/game_of_thrones/my-app/src/components/itemList/itemList.js" />
         <option value="$PROJECT_DIR$/react_course/game_of_thrones/my-app/src/components/charDetails/charDetails.js" />
         <option value="$PROJECT_DIR$/react_course/game_of_thrones/my-app/src/components/itemDetails/charDetails.js" />
         <option value="$PROJECT_DIR$/react_course/game_of_thrones/my-app/src/components/characterPage/characterPage.js" />
@@ -332,11 +279,14 @@
         <option value="$PROJECT_DIR$/react_course/game_of_thrones/my-app/src/components/pages/housePage/index.js" />
         <option value="$PROJECT_DIR$/react_course/game_of_thrones/my-app/src/components/pages/housePage/housePage.js" />
         <option value="$PROJECT_DIR$/react_course/game_of_thrones/my-app/src/components/pages/index.js" />
-        <option value="$PROJECT_DIR$/react_course/game_of_thrones/my-app/src/components/app/app.js" />
         <option value="$PROJECT_DIR$/react_course/game_of_thrones/my-app/src/components/header/header.js" />
         <option value="$PROJECT_DIR$/react_course/game_of_thrones/my-app/src/components/pages/bookPage.js" />
         <option value="$PROJECT_DIR$/react_course/game_of_thrones/my-app/src/components/itemDetails/itemDetails.js" />
         <option value="$PROJECT_DIR$/react_course/game_of_thrones/my-app/src/components/pages/booksItem.js" />
+        <option value="$PROJECT_DIR$/react_course/game_of_thrones/my-app/src/components/itemList/itemList.js" />
+        <option value="$PROJECT_DIR$/react_course/game_of_thrones/my-app/src/components/pages/housePage.js" />
+        <option value="$PROJECT_DIR$/react_course/game_of_thrones/my-app/src/components/app/app.js" />
+        <option value="$PROJECT_DIR$/react_course/game_of_thrones/my-app/src/components/randomChar/randomChar.js" />
       </list>
     </option>
   </component>
@@ -480,7 +430,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587996459372" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588057926856" />
     <property name="last_opened_file_path" value="E:/Project/vladlen_minin/webpack_course" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -576,7 +526,7 @@
       <workItem from="1587102104336" duration="18598000" />
       <workItem from="1587454804192" duration="42341000" />
       <workItem from="1587631918932" duration="41235000" />
-      <workItem from="1588055532463" duration="1321000" />
+      <workItem from="1588055532463" duration="2251000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1586247372359</created>
@@ -603,7 +553,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="226249000" />
+    <option name="totallyTimeSpent" value="227179000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -770,13 +720,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/react_course/second_react_app/my-app/src/components/app/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="79" column="14" lean-forward="true" selection-start-line="79" selection-start-column="14" selection-end-line="79" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/react_course/game_of_thrones/my-app/src/components/toggle/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
@@ -823,13 +766,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/react_course/game_of_thrones/my-app/src/components/pages/characterPage/characterPage.css" />
-    <entry file="file://$PROJECT_DIR$/react_course/game_of_thrones/my-app/src/components/randomChar/randomChar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="90" column="2" selection-start-line="90" selection-start-column="2" selection-end-line="90" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/react_course/game_of_thrones/my-app/src/components/errorMessage/errorMessage.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
@@ -872,29 +808,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/react_course/game_of_thrones/my-app/src/components/pages/housePage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="48" column="75" lean-forward="true" selection-start-line="48" selection-start-column="75" selection-end-line="48" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/react_course/game_of_thrones/my-app/src/components/pages/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="9" column="2" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
           <folding>
             <element signature="e#0#44#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react_course/game_of_thrones/my-app/src/components/app/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1160">
-          <caret line="66" column="56" selection-start-line="66" selection-start-column="50" selection-end-line="66" selection-end-column="56" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -933,16 +852,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/react_course/game_of_thrones/my-app/src/components/itemList/itemList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="614">
-          <caret line="56" column="38" selection-start-line="56" selection-start-column="27" selection-end-line="56" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/react_course/game_of_thrones/my-app/src/components/pages/booksItem.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
@@ -957,6 +866,56 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="31" column="23" lean-forward="true" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react_course/game_of_thrones/my-app/src/components/itemList/itemList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1360">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react_course/game_of_thrones/my-app/src/components/pages/housePage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react_course/second_react_app/my-app/src/components/app/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="79" column="14" lean-forward="true" selection-start-line="79" selection-start-column="14" selection-end-line="79" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react_course/game_of_thrones/my-app/src/components/app/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="33" column="6" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react_course/game_of_thrones/my-app/src/components/randomChar/randomChar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>

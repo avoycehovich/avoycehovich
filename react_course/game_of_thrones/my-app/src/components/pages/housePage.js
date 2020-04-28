@@ -10,7 +10,7 @@ export default class HousePage extends Component {
     gotService = new GotService();
 
     state = {
-        selectedHouse: 1,
+        selectedHouse: null,
         error: false
     };
 
@@ -33,7 +33,7 @@ export default class HousePage extends Component {
         }
 
         const itemList = (<ItemList
-            onItemSelected={this.onItemSelected}
+            // onItemSelected={this.onItemSelected}
             getData={this.gotService.getHouses}
             renderItem={(item) => item.name}
         />);
