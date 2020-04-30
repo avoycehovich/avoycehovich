@@ -33,23 +33,40 @@ const reducer = (state = initState, action) => {
             };
         case 'ITEM_ADD_TO_CARD':
             const id = action.payload;
-            const item = state.menu.find((item) => item.id === id);
+            const itemInd = state.items.findIndex(item => item.id ===id);
+            if (itemInd >= 0){
+                const itemInState = state.items.find(item => item.id === id);
+                const newItem = {
+                    ...itemInState,
+                    qtty: ++itemInState.qtty
+                };
+                return {
+                    ...state,
+                    items: [
+                        ...state.items.slice(0, itemInd),
+                        newItem,
+                        ...state.items.slice(itemInd + 1)
+                    ],
+                    totalPrice: state.totalPrice + newItem.price
+                }
+
+            }
+            const item = state.menu.find(item => item.id === id);
             const newItem = {
                 title: item.title,
                 price: item.price,
                 url: item.url,
-                id: item.id
+                id: item.id,
+                qtty: 1
             };
-            console.log(`Add -> new item price: ${newItem.price}`);
-            const newTotalPrice = state.totalPrice + newItem.price;
-            console.log(`Add -> TotalPrice: ${newTotalPrice}`);
+
             return {
                 ...state,
                 items: [
                     ...state.items,
                     newItem
                 ],
-                totalPrice: newTotalPrice
+                totalPrice: state.totalPrice + newItem.price
             };
         case 'ITEM_REMOVE_FROM_CARD':
             const index = action.payload;
