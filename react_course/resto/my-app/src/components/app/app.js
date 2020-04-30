@@ -1,5 +1,5 @@
 import React from 'react';
-import {CartPage, MainPage} from '../pages';
+import {CartPage, MainPage, ItemPage} from '../pages';
 import AppHeader from '../app-header';
 import {Route, Switch} from 'react-router-dom';
 
@@ -11,16 +11,9 @@ const App = () => {
         <div style={{background: `url(${Background}) center center/cover no-repeat`}} className="app">
             <AppHeader total={50}/>
             <Switch>
-                <Route
-                    path='/'
-                    component={MainPage}
-                    exact>
-                </Route>
-                <Route
-                    path='/card/'
-                    component={CartPage}
-                    exact>
-                </Route>
+                <Route path = '/' exact component = {MainPage}/>
+                <Route path = '/cart' exact component = {CartPage}/>
+                <Route path = '/:id' component ={ItemPage}/>
             </Switch>
         </div>
     )
