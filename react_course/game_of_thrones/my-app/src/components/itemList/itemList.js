@@ -1,7 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import './itemList.css';
 import PropTypes from 'prop-types';
-import WithData from '../withData';
 
 function ItemList({getData, onItemSelected, renderItem}) {
 
